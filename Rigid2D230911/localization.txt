@@ -1,0 +1,96 @@
+title $程序$ $Program$
+frm_tm $[ZhangYH] 帧时间: $ $[ZhangYH] Frame Time: $
+bt_save $保存$ $Save$
+bt_load $载入$ $Load$
+fpn_global $全局$ $Global$
+compile $解释并运行$ $Interpret & Run$
+fpn_cmd $指令$ $Command$
+unnamed_par $未命名$ $Unnamed$
+bt_del_par $删除$ $Del.$
+bt_add_par $新建参数$ $Create Param.$
+fpn_par $参数$ $Parameters$
+fpn_lang $语言/Lang.$ $Language$
+fpn_about $关于$ $About$
+bt_body_ok $确定$ $OK$
+fpn_body $物体$ $Body$
+cb_body_con $选择: $ $Sel.: $
+bt_con_ok $确定$ $OK$
+fpn_con $连接$ $Conn.$
+mode_drag $模式: 拖拽$ $Mode: Drag$
+mode_sel $模式: 选择$ $Mode: Sel.$
+mode_create $模式: 创建$ $Mode: Create$
+mode_del $模式: 删除$ $Mode: Del.$
+disp_col $显示: 颜色$ $Disp.: Col.$
+disp_energy $显示: 能量$ $Disp.: Energy$
+disp_charge $显示: 电荷$ $Disp.: Charge$
+disp_none $显示: 无$ $Disp.: None$
+body_not_sel $没有选中物体.$ $No body selected.$
+body_fixed $固定: $ $Fixed: $
+body_o $位置: $ $Position: $
+body_v $速度: $ $Velocily: $
+body_ang $角度: $ $Angle: $
+body_v_ang $角速度: $ $Angular Velocity: $
+body_density $密度: $ $Density: $
+body_charge_density $电荷密度: $ $Charge Density: $
+body_e $恢复系数: $ $Restitution: $
+body_mu_s $静摩擦系数: $ $Static Friction: $
+body_mu_d $动摩擦系数: $ $Dynamic Friction: $
+body_damp_v $速度阻尼: $ $Vel. Damping: $
+body_damp_v_ang $角速度阻尼: $ $Ang. Vel. Damping: $
+conn_not_sel $没有选中连接.$ $No connection selected.$
+conn $连接 $ $Connection $
+conn_type $类别: $ $Type: $
+conn_rope $绳子$ $Rope$
+conn_link $连杆$ $Rod$
+conn_spring $弹簧$ $Spring$
+conn_cord $弹性弦$ $Cord$
+conn_len $起始长度: $ $Init. Length: $
+conn_hooke $胡克系数: $ $Hooke Coeff.: $
+n_step $帧模拟次数: $ $Sim. Count Per Frame: $
+s_grid $网格尺寸: $ $Grid Size: $
+max_real_dt $最大帧时间: $ $Max Frame Time: $
+tl_scene $场景左上角: $ $Scene Topleft: $
+w_scene $场景宽度: $ $Scene Width: $
+h_scene $场景高度: $ $Scene Height: $
+gravity $重力: $ $Gravity: $
+electrostatic $电磁力: $ $Electrostatic: $
+coulomb $库仑常数: $ $Coulomb Coeff.: $
+creator_mode $创建模式: $ $Creator Mode: $
+crt_ball $球体$ $Ball$
+crt_box $盒子$ $Box$
+crt_conn $连接$ $Connection$
+crt_nail $钉子$ $Nail$
+crt_particle $颗粒$ $Particle$
+crt_plate $隔板$ $Plate$
+crt_point $单点$ $Point$
+bt_body_del $删除$ $Del.$
+bt_con_del $删除$ $Del.$
+lb_time $时间: $ $Time: $
+lb_mouse $鼠标: $ $Mouse: $
+mute $静音$ $Mute$
+unmute $解除静音$ $Unmute$
+vol $音量: $ $Volume: $
+start $启动$ $Start$
+pause $暂停$ $Pause$
+bt_reset $重置$ $Reset$
+
+about_txt
+$这是一个 2D 刚体物理模拟程序. 它支持圆形, 凸多边形, 也支持这些图形的组合. 它可以模拟刚体之间的碰撞, 摩擦和电磁力等. 此外这个程序也支持在物体之间添加连接件, 比如绳子, 连杆, 弹簧等. 用户可以用鼠标拖拽, 选定和创建物体. 用户也可以使用脚本语言编辑场景, 指定物体的移动轨迹等.
+
+下面是鼠标和键盘的操作. 用 [空格键] 启动和暂停模拟. 在默认的 "拖拽" 模式下, 用 [鼠标左键] 选定并拖拽图形, 此时若同时按下 [鼠标右键] 可以固定住物体防止其转动, 若同时按下 [F] 将不再直接拖拽物体而是对它施力. 在其它模式下, 鼠标操作会有不同的效果.
+
+由于没有很多人用这个程序, 我不考虑给它写一个完备的教程. 要了解如何操作这个程序, 你可以在 "全局" 面板加载这个程序自带的存档文件, 或者查看程序文件夹内的示例代码片段, 你可以在此基础上合理修改.
+
+我写这个程序主要是学习目的, 它目前仍有很多不足: 我很怀疑它的模拟能够达到工业级别的准确度; 在多物体堆叠以及多物体共同连接的情形, 这个程序模拟的结果也很奇怪; 这个程序目前只是一个 CPU 单线程的程序, 优化空间非常大.  
+
+如果你有建议或想要交流, 非常欢迎留下评论! 祝身体健康, 心情愉快! (2023/09/18)$
+$(Translated by ChatGPT) This is a 2D rigid body physics simulation program. It supports circles, convex polygons, and combinations of these shapes. It can simulate collisions, friction, and electromagnetic forces between rigid bodies. Additionally, this program allows users to add connectors between objects, such as ropes, links, and springs. Users can drag, select, and create objects using the mouse. They can also use a scripting language to edit the scene and specify object motion trajectories.
+
+Below are the mouse and keyboard controls. Press the [Spacebar] to start and pause the simulation. In the default "drag" mode, use the [Left Mouse Button] to select and drag shapes. If you simultaneously press the [Right Mouse Button], you can fix an object to prevent it from rotating. Pressing [F] while in this mode applies a force to the selected object instead of directly dragging it. Different modes will result in different mouse interactions.
+
+Since not many people use this program, I do not plan to provide a comprehensive tutorial. To learn how to operate the program, you can load the built-in archive file in the "global" panel or check the example code snippets in the program folder. You can make reasonable modifications based on these resources.
+
+I developed this program primarily for learning purposes, and it still has many shortcomings. I doubt its simulation accuracy can reach an industrial level. The program produces strange results when dealing with multiple stacked objects and interconnected objects. Currently, it only runs on a single CPU thread, leaving ample room for optimization.
+
+If you have suggestions or would like to discuss, please feel free to leave comments! Wishing you good health and a pleasant mood! (2023/09/18)$
+

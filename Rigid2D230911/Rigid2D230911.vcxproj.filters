@@ -1,0 +1,403 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{22e8c6e4-5007-4cbc-a403-e1316ed27e72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\basic">
+      <UniqueIdentifier>{d08d83ce-04f8-40ac-a1cb-6c6fa2e66b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\draw">
+      <UniqueIdentifier>{5ddfa53b-c155-4399-b6da-8007637081ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\control">
+      <UniqueIdentifier>{e3739b4d-f523-4ede-9cbe-c847792a6be5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\app">
+      <UniqueIdentifier>{ae1dc96e-f838-414a-b30f-0c959c44c8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\parse">
+      <UniqueIdentifier>{4651eaf2-03ee-4982-866e-673a96e61e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="current">
+      <UniqueIdentifier>{e071e88c-03c3-42b2-a379-5556aba863e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="current\ui">
+      <UniqueIdentifier>{38c80e3a-b63b-4fd6-a108-12c280b25525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="current\common">
+      <UniqueIdentifier>{1084d84c-4808-4d4e-b325-c93493777584}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="current\rigid">
+      <UniqueIdentifier>{0269ee0a-945a-4f6f-97bf-0522c2535559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\media">
+      <UniqueIdentifier>{bbaa05cb-33d7-473c-be25-a00f5540e832}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="dvec.cpp">
+      <Filter>framework\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>framework\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>framework\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>framework\basic</Filter>
+    </ClCompile>
+    <ClCompile Include="ft_constant.cpp">
+      <Filter>framework\media</Filter>
+    </ClCompile>
+    <ClCompile Include="font.cpp">
+      <Filter>framework\media</Filter>
+    </ClCompile>
+    <ClCompile Include="tile.cpp">
+      <Filter>framework\media</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>framework\app</Filter>
+    </ClCompile>
+    <ClCompile Include="app_item.cpp">
+      <Filter>framework\app</Filter>
+    </ClCompile>
+    <ClCompile Include="app_msg.cpp">
+      <Filter>framework\app</Filter>
+    </ClCompile>
+    <ClCompile Include="app_wv.cpp">
+      <Filter>framework\app</Filter>
+    </ClCompile>
+    <ClCompile Include="expr.cpp">
+      <Filter>framework\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="bra.cpp">
+      <Filter>framework\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="proc.cpp">
+      <Filter>framework\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="token.cpp">
+      <Filter>framework\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="var.cpp">
+      <Filter>framework\parse</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_str.cpp">
+      <Filter>framework\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_tile.cpp">
+      <Filter>framework\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_comp.cpp">
+      <Filter>framework\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_geo.cpp">
+      <Filter>framework\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_px_seg.cpp">
+      <Filter>framework\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="control.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="ctrl_list.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="label.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="rich_label.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="separator.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="checkbox.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="dragbar.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="droplist.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="float_panel.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="panel.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="rich_textbox.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="scrollbar.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="textbox.cpp">
+      <Filter>framework\control</Filter>
+    </ClCompile>
+    <ClCompile Include="fpn_about.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="fpn_cmd.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="fpn_global.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="fpn_lang.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="fpn_par.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="pn_bottom.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="pn_menu.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="ui.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="bgr.cpp">
+      <Filter>current\common</Filter>
+    </ClCompile>
+    <ClCompile Include="cur.cpp">
+      <Filter>current\common</Filter>
+    </ClCompile>
+    <ClCompile Include="par.cpp">
+      <Filter>current\common</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_tri.cpp">
+      <Filter>framework\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="body.cpp">
+      <Filter>current\rigid</Filter>
+    </ClCompile>
+    <ClCompile Include="shape.cpp">
+      <Filter>current\rigid</Filter>
+    </ClCompile>
+    <ClCompile Include="creator.cpp">
+      <Filter>current\rigid</Filter>
+    </ClCompile>
+    <ClCompile Include="collision.cpp">
+      <Filter>current\rigid</Filter>
+    </ClCompile>
+    <ClCompile Include="aabb.cpp">
+      <Filter>current\rigid</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_curve.cpp">
+      <Filter>framework\draw</Filter>
+    </ClCompile>
+    <ClCompile Include="comp.cpp">
+      <Filter>current\rigid</Filter>
+    </ClCompile>
+    <ClCompile Include="fpn_body.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="connection.cpp">
+      <Filter>current\rigid</Filter>
+    </ClCompile>
+    <ClCompile Include="fpn_con.cpp">
+      <Filter>current\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="group.cpp">
+      <Filter>current\rigid</Filter>
+    </ClCompile>
+    <ClCompile Include="clip.cpp">
+      <Filter>framework\media</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dvec.h">
+      <Filter>framework\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="include.h">
+      <Filter>framework\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>framework\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>framework\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>framework\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="vptr.h">
+      <Filter>framework\basic</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>framework\media</Filter>
+    </ClInclude>
+    <ClInclude Include="tile.h">
+      <Filter>framework\media</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>framework\app</Filter>
+    </ClInclude>
+    <ClInclude Include="app_item.h">
+      <Filter>framework\app</Filter>
+    </ClInclude>
+    <ClInclude Include="app_wv.h">
+      <Filter>framework\app</Filter>
+    </ClInclude>
+    <ClInclude Include="bra.h">
+      <Filter>framework\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="expr.h">
+      <Filter>framework\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="proc.h">
+      <Filter>framework\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="token.h">
+      <Filter>framework\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="var.h">
+      <Filter>framework\parse</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_tile.h">
+      <Filter>framework\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_comp.h">
+      <Filter>framework\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_geo.h">
+      <Filter>framework\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_px_seg.h">
+      <Filter>framework\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_str.h">
+      <Filter>framework\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="control.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="checkbox.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="ctrl_def.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="ctrl_list.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="dragbar.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="droplist.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="float_panel.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="label.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="panel.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="rich_label.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="rich_textbox.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="scrollbar.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="separator.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="textbox.h">
+      <Filter>framework\control</Filter>
+    </ClInclude>
+    <ClInclude Include="fpn_about.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="fpn_cmd.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="fpn_global.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="fpn_lang.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="fpn_par.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="pn_bottom.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="pn_menu.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="bgr.h">
+      <Filter>current\common</Filter>
+    </ClInclude>
+    <ClInclude Include="cur.h">
+      <Filter>current\common</Filter>
+    </ClInclude>
+    <ClInclude Include="my_def.h">
+      <Filter>current\common</Filter>
+    </ClInclude>
+    <ClInclude Include="par.h">
+      <Filter>current\common</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_tri.h">
+      <Filter>framework\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="body.h">
+      <Filter>current\rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="shape.h">
+      <Filter>current\rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>current\rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="creator.h">
+      <Filter>current\rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="aabb.h">
+      <Filter>current\rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_curve.h">
+      <Filter>framework\draw</Filter>
+    </ClInclude>
+    <ClInclude Include="comp.h">
+      <Filter>current\rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="fpn_body.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="connection.h">
+      <Filter>current\rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="fpn_con.h">
+      <Filter>current\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="group.h">
+      <Filter>current\rigid</Filter>
+    </ClInclude>
+    <ClInclude Include="clip.h">
+      <Filter>framework\media</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
